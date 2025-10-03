@@ -6,42 +6,58 @@
 
 
   <meta charset="UTF-8">
-  <title>DOJ Employee Central Portal</title>
+  <title>Website Closed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root {
+      --accent: #f1c93c;
+      --white: #fff;
+      --gray: #f7f7f7;
+      --border: #e5e5e5;
+      --text: #222;
+      --heading: #1a1a1a;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--gray);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .closed-warning-container {
+      background: var(--white);
+      border-radius: 14px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+      padding: 2.5rem 2.5rem;
+      text-align: center;
+      max-width: 420px;
+      width: 95vw;
+      border: 2px solid #d40000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.2rem;
+    }
+    .closed-warning-title {
+      color: #d40000;
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .closed-warning-msg {
+      color: var(--text);
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+    }
+  </style>
 
 
-  <div class="portal-container">
-    <header class="portal-header">
-      <h1>Department of Justice<br>Employee Central Portal</h1>
-      <p class="subtitle">Your gateway to essential DOJ employee resources and policies</p>
-    </header>
-    <nav class="central-links">
-      <div class="link-card">
-        <h2>SOPs</h2>
-        <p>Standard Operating Procedures for all DOJ personnel.</p>
-        <a href="https://fdoj-dtbase.github.io/employee-sop/" class="portal-btn">View SOPs</a>
-      </div>
-      <div class="link-card">
-        <h2>Vehicle Policy</h2>
-        <p>Review official vehicle restrictions and compliance rules.</p>
-        <a href="https://fdoj-dtbase.github.io/employee-vrp/" class="portal-btn">View Vehicle Policy</a>
-      </div>
-      <div class="link-card">
-        <h2>Dress Code</h2>
-        <p>Understand DOJ dress code requirements for all staff.</p>
-        <a href="https://fdoj-dtbase.github.io/employee-dcs/" class="portal-btn">View Dress Code</a>
-      </div>
-    </nav>
-    <section class="employee-info">
-      <h2></h2>
-      <ul>
-      <p class="note"><strong>Note:</strong> All resources are for DOJ personnel only. Unauthorized access is prohibited.</p>
-    </ul></section>
-    <footer class="portal-footer">
-      <span>© 2025 Department of Justice — Employee Central Portal</span>
-    </footer>
+  <div class="closed-warning-container">
+    <div class="closed-warning-title">Website Closed</div>
+    <div class="closed-warning-msg">This website has been closed by the owner.</div>
   </div>
-  <script src="script.js"></script>
 
 <script src="./script.js"></script></body></html>
